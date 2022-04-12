@@ -12,6 +12,16 @@
 ### API Documentation
 [Postman Docs](https://documenter.getpostman.com/view/2896538/UVCCfjZ9)
 
+### Other Documentation
+- [VueJS](https://vuejs.org/guide/introduction.html)
+- [Tailwind CSS](https://tailwindcss.com/docs/utility-first)
+
+Less important:
+- [mongoose](https://mongoosejs.com/docs/index.html)
+- [NuxtJS](https://nuxtjs.org/docs/get-started/installation)
+- [Axios](https://axios.nuxtjs.org)
+- [ExpressJS](https://expressjs.com/en/guide/routing.html)
+
 ### Local database
 ```
 # Install
