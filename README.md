@@ -2,12 +2,25 @@
 
 ## Technologies
 
-- VueJS + NuxtJS for frontend
-- expressJS for backend
-- mongoDB + mongoose for datebank
-- tailwindcss für CSS
+- `VueJS` + `NuxtJS` for frontend
+- `expressJS` for backend
+- `mongoDB` + `mongoose` for datebank
+- `tailwindcss` für CSS
 - Json Web Token for authentication
-- axios for requests from frontend to backend
+- `axios` for requests from frontend to backend
+
+### Local database
+```
+# Install
+brew tap mongodb/brew
+brew install mongodb-community
+
+# Run
+brew services start mongodb-community
+
+# Stop
+brew services stop mongodb-community
+```
 
 *--- Below is default README ---*
 

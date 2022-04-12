@@ -1,10 +1,13 @@
 # Express API
 
+This is the code for the backend, which will run on the server. The client accesses data (e.g. recipes) by sending requests to this part.
+Requests will be parsed according to the code in `routes/` and will be delegated to the corresponding functions in `controllers/`.
+
 ## Folders
 
 ### `models`
 
-Contains definition of a recipe and user.
+Contains definitions of a recipe and user.
 
 ### `routes`
 
