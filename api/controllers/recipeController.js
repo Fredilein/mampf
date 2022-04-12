@@ -1,3 +1,4 @@
+import { getLinkPreview } from 'link-preview-js'
 const validator = require('express-validator')
 const Recipe = require('../models/Recipe')
 
@@ -91,5 +92,11 @@ module.exports.delete = function (req, res) {
       })
     }
     return res.json(recipe)
+  })
+}
+
+module.exports.preview = function (req, res) {
+  getLinkPreview(req.link).then((data) => {
+    return res.json(data)
   })
 }

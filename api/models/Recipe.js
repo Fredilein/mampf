@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const recipeSchema = mongoose.Schema({
   title: {
     type: String,
-    required: [true, 'Please Include your name']
+    required: [true, 'Please Include a title']
   },
   link: {
     type: String

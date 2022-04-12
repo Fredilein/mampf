@@ -11,10 +11,12 @@ app.use(express.urlencoded({ extended: true }))
 // Require & Import API routes
 const user = require('./routes/user')
 const recipe = require('./routes/recipe')
+const helper = require('./routes/helper')
 
 // Use API Routes
 app.use(user)
 app.use(recipe)
+app.use(helper)
 
 // Export the server middleware
 module.exports = {
