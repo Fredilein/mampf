@@ -21,6 +21,9 @@
       - Recommended recipes/users<br>
       - Accessible without login<br>
     </div>
+    <p>Go to /recipes to see all recipes</p>
+    <p>Go to /user/me to see logged in user</p>
+    <p>/user/login and /user/register to obvious</p>
   </div>
 </template>
 

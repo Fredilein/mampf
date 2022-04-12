@@ -1,3 +1,7 @@
+/*
+ *  Handle user authentication check
+ */
+
 const jwt = require('jsonwebtoken')
 
 const config = {

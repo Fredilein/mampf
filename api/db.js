@@ -1,3 +1,7 @@
+/*
+ *  Connect to local database
+ */
+
 const mongoose = require('mongoose')
 
 // You don't need to create DB from mongodb terminal. Mongoose creates the db automatically.

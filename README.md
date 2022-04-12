@@ -1,5 +1,16 @@
 # mampf
 
+## Technologies
+
+- VueJS + NuxtJS for frontend
+- expressJS for backend
+- mongoDB + mongoose for datebank
+- tailwindcss für CSS
+- Json Web Token for authentication
+- axios for requests from frontend to backend
+
+*--- Below is default README ---*
+
 ## Build Setup
 
 ```bash
