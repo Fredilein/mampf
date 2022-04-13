@@ -1,10 +1,20 @@
 <template>
   <div v-if="previewData">
-    <div class="flex flex-nowrap w-full h-24 border border-gray-200 shadow-md rounded-md">
-      <img class="h-full w-32 object-cover rounded-l-md" v-if="previewData.images" :src="previewData.images[0]" />
+    <div
+      class="flex flex-nowrap w-full h-24 border border-gray-200 shadow-md rounded-md"
+    >
+      <img
+        v-if="previewData.images"
+        class="h-full w-32 object-cover rounded-l-md"
+        :src="previewData.images[0]"
+      >
       <div class="p-3 w-full relative">
-          <p class="text-lg font-medium leading-tight text-gray-800">{{ recipe.title }}</p>
-          <p class="absolute inset-x-3 bottom-3 text-sm text-gray-500">{{ recipe.link | host }}</p>
+        <p class="text-lg font-medium leading-tight text-gray-800">
+          {{ recipe.title }}
+        </p>
+        <p class="absolute inset-x-3 bottom-3 text-sm text-gray-500">
+          {{ recipe.link | host }}
+        </p>
       </div>
     </div>
   </div>
