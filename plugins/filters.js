@@ -1,11 +1,11 @@
 import Vue from 'vue'
 
 Vue.filter('host', (url) => {
-  const url_trim = url
+  const urlTrim = url
     ? url
       .split('/')
       .slice(1, 3)
       .join('')
-    : '';
-  return url_trim;
+    : ''
+  return urlTrim;
 })

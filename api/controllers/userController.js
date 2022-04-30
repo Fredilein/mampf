@@ -12,7 +12,7 @@ module.exports.register = [
   validator.body('email').custom((value) => {
     return User.findOne({ email: value }).then((user) => {
       if (user !== null) {
-        return Promise.reject('Email already in use')
+        return Promise.reject(new Error('Email already in use'))
       }
     })
   }),
@@ -100,7 +100,7 @@ module.exports.login = [
             })
           } else {
             return res.status(500).json({
-              message: 'Invalid Email or Password entered.'
+              message: 'Invalid Email or Password entered: ' + err
             })
           }
         }
