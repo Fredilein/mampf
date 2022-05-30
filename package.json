@@ -21,7 +21,7 @@
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.1",
-    "link-preview-js": "^2.1.13",
+    "link-preview-js": "^2.1.15",
     "link-preview-generator": "^1.1.0",
     "net": "^1.0.2",
     "nuxt": "^2.15.7",
