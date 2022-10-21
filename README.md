@@ -9,7 +9,7 @@
 - Json Web Token for authentication
 - `axios` for requests from frontend to backend
 
-### API Documentation
+### API Documentation (communicates with backend)
 [Postman Docs](https://documenter.getpostman.com/view/2896538/UVCCfjZ9)
 
 ### Other Documentation
